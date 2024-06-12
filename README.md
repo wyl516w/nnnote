@@ -32,7 +32,12 @@ conda config --set auto_activate_base false # for not to use base environment fo
 # or vim ~/.condarc and manual modify 
 ```
 
-### Anaconda 环境创建
+### Anaconda 环境管理
+创建环境
 ```bash
 conda create -n my_env python=3.10 -y 
+```
+删除
+```bash
+conda env remove -n my_env -y 
 ```
