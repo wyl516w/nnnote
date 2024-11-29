@@ -36,3 +36,14 @@ conda config --set auto_activate_base false # for not to use base environment fo
 ```bash
 conda create -n my_env python=3.10 -y 
 ```
+
+## Github and Gitee
+```bash
+git init
+git remote remove origin 
+git remote remove gitee
+git remote add origin {git@github.com/user/pro.git}
+git remote add gitee {git@gitee.com/user/pro.git}
+git push/pull
+git push/pull gitee
+```
